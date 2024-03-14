@@ -55,6 +55,7 @@ const builds = {
     env: 'development',
     alias: { he: './entity-decoder' },
     banner
+    
   },
   'full-cjs-prod': {
     entry: resolve('web/entry-runtime-with-compiler.ts'),
